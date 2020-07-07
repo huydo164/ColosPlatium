@@ -1,0 +1,514 @@
+body {
+    font-family: Tahoma;
+    font-size: 15px;
+    background:#fff;
+    color: #222;
+    line-height: 1.42857143;
+    width: 100%;
+    overflow: hidden;
+}
+#wrapper {
+    padding-left: 0;
+    padding-right: 0
+}
+.top{
+    background: #fff0ad;
+}
+.logo{
+    width: 14%;
+    margin: 7px 0 15px 0;
+    display: inline-block;
+}
+.logo img{
+    width: 100%;
+}
+.menu-top{
+    display: inline-block;
+    margin-left: 65px;
+}
+.navigation  ul li{
+    display: inline-block;
+    margin-right: 46px;
+    padding: 15px 0px;
+    font-size: 18px;
+}
+.navigation  ul li:last-child{
+    margin-right: 0;
+}
+.navigation  ul li a {
+    color: #ec0c6e;
+    font-weight: bold;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+}
+.navigation ul li a:hover{
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+}
+.thumb-top{
+    background: url("http://localhost/project.vn/ColosPlatium/public/assets/img/img-banner.png") no-repeat;
+    display: block;
+    width: 100%;
+    height: 869px;
+    background-size: contain;
+}
+.info-top{
+    position: relative;
+}
+.thumb-top{
+    position: relative;
+}
+.descrip-top{
+    font-size: 22px;
+    display: inline-block;
+    width: 18%;
+    text-align: center;
+    border: 2px dashed #000;
+    background: #e3e3e0;
+    opacity: 0.8;
+    color: #000;
+    border-radius: 40px;
+    padding: 5px 27px;
+    position: absolute;
+    right: 24%;
+    top: 13%;
+}
+.gif{
+    display: inline-block;
+    font-size: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ab0a1a;
+    position: absolute;
+    right: 20%;
+    bottom: 30%;
+}
+.gif span{
+    color: #08199d;
+}
+.hot-line{
+    display: inline-block;
+    position: absolute;
+    right: 25%;
+    bottom: 5%;
+}
+.tv{
+    border: 2px solid #fb6731;
+    background: #fd9334;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 8px;
+    padding: 5px 49px;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.phone{
+    color: #0f1d9d;
+    font-weight: bold;
+    font-size: 22px;
+    padding-left: 41px;
+}
+
+.home-1{
+    background: #d2f4fa;
+    padding: 110px 0 163px 0;
+}
+.title{
+    padding-bottom: 65px;
+    color: #eb2286;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+}
+.img-1{
+    width: 38%;
+    height: 601px;
+}
+.info-1 img{
+    width: 100%;
+    height: 100%;
+}
+.descrip-1{
+    width: 59%;
+}
+.icon-1{
+    background: url("http://localhost/project.vn/ColosPlatium/public/assets/img/icon-home-1.png") no-repeat;
+    display: inline-block;
+    width: 70px;
+    height: 66px;
+    vertical-align: middle;
+}
+.title-icon{
+    color: #d50000;
+    font-size: 21px;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+.t1 {
+    padding: 21px 0 45px 0;
+    color: #222;
+    font-size: 16px;
+}
+
+/*==========home-2==============*/
+.home-2{
+    background: url("http://localhost/project.vn/ColosPlatium/public/assets/img/background-home-3.png") repeat-x #ffe10f;
+    display: block;
+    width: 100%;
+    padding: 60px 0;
+    position: relative;
+}
+.home-2 .title{
+    padding-bottom: 34px;
+}
+.intro-2{
+    padding-bottom: 40px;
+}
+.giai-phap, .colos{
+    text-align: center;
+    text-transform: uppercase;
+}
+.giai-phap{
+    font-size: 30px;
+}
+.colos{
+    color: #1daeeb;
+    font-size: 18px;
+    margin-top: 8px;
+}
+.title-yt{
+    width: 25%;
+    float: left;
+    position: relative;
+    z-index: 999;
+    right: 5%;
+    top: 17px;
+}
+.title-yt img{
+    width: 100%;
+}
+.name-dt{
+    background: #e8308c;
+    color: #fff;
+    width: 96%;
+    padding: 10px 7px 10px 32px;
+    position: relative;
+    top: 33px;
+    height: 104px;
+}
+.vid{
+    padding: 20px 10px;
+    background: #fff;
+    clear: both;
+    width: 96%;
+    box-shadow: 0px 3px 4px #ccc;
+    height: 486px;
+}
+.click{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 88px;
+}
+.dk{
+    background: #ff4081;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    text-transform: uppercase;
+    box-shadow: 0 0 12px #978508;
+    border-radius: 26px;
+    line-height: 43px;
+    padding: 5px 49px;
+    border: none;
+    
+}
+.tv-show{
+    margin-bottom: 80px;
+}
+.vtc{
+    background: #ffffff;
+    border: 1px solid #d50000;
+    padding: 20px 14px;
+    height: 540px;
+}
+.img-vtc{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.intro-vid {
+    padding-top: 20px;
+    text-align: justify;
+}
+.choose{
+    text-align: center;
+    font-size: 27px;
+    color: #eb2286;
+    margin-bottom: 72px;
+}
+.ingre{
+    position: relative;
+}
+.ingre-1, .ingre-2, .ingre-3, .ingre-4{
+    position: relative;
+}
+.ingre-1{
+    float: left;
+    width: 37%;
+    padding: 40px;
+    background: #fff;
+    border: 2px dashed;
+    font-size: 18px;
+}
+.ingre-2 {
+    width: 37%;
+    padding: 40px;
+    background: #fff;
+    border: 2px dashed;
+    font-size: 18px;
+    float: right;
+    top: 20px;
+}
+.ar-left-down, .ar-left-up, .ar-right-up, .ar-right-down{
+    clear: both;
+    position: absolute;
+    z-index: 999;
+}
+.ar-left-down img, .ar-left-up img, .ar-right-up img, .ar-right-down img{
+    width: 100%;
+}
+.thumb-ingre{
+    text-align: center;
+    clear: both;
+    padding: 111px 0 88px 0;
+}
+.ar-left-up{
+    top: 20%;
+    width: 13%;
+    right: 59%;
+}
+.ar-right-up {
+    width: 13%;
+    top: 22%;
+    right: 34%;
+}
+.ar-left-down{
+    width: 15%;
+    right: 55%;
+    top: 95%;
+}
+.ar-right-down{
+    width: 15%;
+    top: 95%;
+    right: 32%;
+}
+.check-date{
+    clear: both;
+    padding: 128px 0 0 0;
+}
+.date{
+    margin-bottom: 60px;
+}
+.icon{
+    display: inline-block;
+    position: relative;
+    left: -204px;
+    top: 66px;
+}
+.icon-like{
+    background: url("http://localhost/project.vn/ColosPlatium/public/assets/img/like.png") no-repeat;
+    display: inline-block;
+    width: 130px;
+    height: 111px;
+    vertical-align: top;
+    margin-right: 20px;
+    position: relative;
+    top: 144px;
+    left: -133px;
+    background-size: 69px;
+}
+.text-d{
+    background: #e8308c;
+    color: #fff;
+    font-size: 30px;
+    padding: 20px 17px;
+    border-radius: 17px;
+    display: inline-block;
+    position: relative;
+    top: 18px;
+    left: -31px;
+}
+.result{
+    display: inline-block;
+    position: relative;
+    left: -18px;
+}
+.icon-right{
+    background: url("http://localhost/project.vn/ColosPlatium/public/assets/img/date.png") no-repeat;
+    display: inline-block;
+    width: 33px;
+    height: 58px;
+    vertical-align: middle;
+}
+.info-date{
+    border: 2px dashed #e8308c;
+    background: #fff;
+    padding: 30px 20px;
+    font-size: 19px;
+    border-radius: 26px;
+}
+.dam{
+    font-size: 19px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+/*=========home-3==========*/
+.home-3{
+    background: #f1f8e9;
+    padding-top: 70px;
+}
+.title-home-3{
+    color: #2e7d32;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-bottom: 60px;
+    text-align: center;
+}
+.clip-3{
+    margin-bottom: 60px;
+}
+.yt-3{
+    display: inline-block;
+    width: 40%;
+}
+.text-3{
+    display: inline-block;
+    width: 47%;
+    vertical-align: top;
+    margin-left: 26px;
+}
+.title-3{
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 23px;
+    color: #000;
+}
+.des-3{
+    font-size: 17px;
+}
+
+/*===========home-4=============*/
+.home-4{
+    background: #ffffff;
+    padding: 50px 0;
+}
+.title-4{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #4770b4;
+    padding-bottom: 40px;
+}
+.yt-4{
+    display: inline-block;
+    width: 49%;
+}
+.list{
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+}
+.list ul li{
+    display: inline-block;
+    width: 25%;
+    margin-left: 39px;
+    margin-bottom: 22px;
+}
+
+/*============home-bottom=============*/
+#home-bottom{
+    background: #b8edff;
+    padding: 70px 0 70px 0;
+}
+.title-bottom{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #1c4ea2;
+    text-align: center;
+}
+.title-sub{
+    text-transform: uppercase;
+    color: #1daeeb;
+    font-size: 18px;
+    text-align: center;
+}
+.buy{
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    margin: 50px 0;
+}
+.text-buy{
+    background: #fd008b;
+    border-radius: 10px;
+    padding: 10px 15px;
+    display: inline-block;
+}
+.form-submit{
+    border: 3px dashed #ffffff;
+    border-radius: 36px;
+    padding: 20px 36px;
+}
+.title-form{
+    text-align: left;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #214ca6;
+    margin-bottom: 30px;
+}
+.ip-name{
+    display: inline-block;
+    width: 47%;
+    margin-right: 37px;
+    padding: 24px 20px;
+    border-radius: 12px;
+}
+.ip-sdt{
+    display: inline-block;
+    width: 49%;
+    padding: 24px 20px;
+    border-radius: 12px;
+}
+.ip-local{
+    padding: 24px 20px;
+    border-radius: 12px;
+    margin: 20px 0;
+}
+.sm{
+    position: relative;
+    padding: 13px 37px;
+    border-radius: 13px;
+    top: 44px;
+    font-size: 17px;
+    border: none;
+    left: 434px;
+}
+.descrip-bottom{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}

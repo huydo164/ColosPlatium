@@ -1,0 +1,633 @@
+@media (max-width: 1200px) {
+
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    .top{
+        text-align: center;
+    }
+    .logo{
+        width: 17%;
+    }
+    .menu-top{
+        margin-left: 0;
+    }
+    .menu-top ul li{
+        margin-right: 34px;
+    }
+    .thumb-top{
+        background-size: cover;
+        height: 519px;
+    }
+    .descrip-top{
+        width: 37%;
+        right: 9%;
+        top: 7%;
+    }
+    .gif{
+        display: none;
+    }
+    .hot-line{
+        right: 22%;
+        bottom: 43%;
+    }
+    .tv{
+        margin-bottom: 7px;
+    }
+    .hot-line {
+        right: 15%;
+        bottom: 0;
+    }
+    .home-1{
+        padding: 86px 0 86px 0;
+    }
+    .t1{
+        padding: 21px 0 27px 0;
+    }
+    .intro-2{
+        display: none;
+    }
+    .vid{
+        min-height: 562px;
+    }
+    .name-dt {
+        top: 27px;
+        max-height: 93px;
+    }
+    .img-vtc img:last-child{
+        width: 30%  ;
+    }
+    .thumb-ingre{
+        padding: 60px 0 66px 0;
+    }
+    .ar-left-up, .ar-right-up{
+        top: 27%;
+    }
+    .ar-right-down, .ar-left-down{
+        top: 96%;
+    }
+    .icon-like{
+        display: none;
+    }
+    .text-3{
+        width: 55%;
+        text-align: justify;
+    }
+    .title-3{
+        margin-bottom: 15px;
+    }
+    .list ul li{
+        margin-left: 31px;
+        margin-bottom: 46px;
+    }
+    .ip-name {
+        width: 46%;
+    }
+    .ip-sdt{
+        width: 49%;
+    }
+    .sm{
+        left: 331px;
+
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .top{
+        text-align: center;
+    }
+    .logo{
+        width: 23%;
+    }
+    .menu-top{
+        margin-left: 0;
+        display: block;
+        width: 100%;
+    }
+    .menu-top ul li{
+        margin-right: 18px;
+    }
+    .menu-top ul li a{
+        font-size: 15px;
+    }
+    .descrip-top{
+        display: none;
+    }
+    .thumb-top{
+        background-size: cover;
+        max-height: 435px;
+    }
+    .gif{
+        top: 49px;
+        right: 10%;
+    }
+    .hot-line{
+        top: 344px;
+        right: 17%;
+    }
+    .tv{
+        margin-bottom: 8px;
+    }
+    .home-1{
+        padding: 110px 0 74px 0;
+    }
+    .img-1{
+        width: 38%;
+        height: auto;
+    }
+    .d1{
+        margin-bottom: 63px;
+    }
+    .title-icon{
+        font-size: 17px;
+    }
+    .t1{
+        display: none;
+    }
+    .yt{
+        margin-bottom: 30px;
+    }
+    .intro-2{
+        display: none;
+    }
+    .title-yt{
+        width: 19%;
+        right: 3%;
+    }
+    .vtc{
+        margin-bottom: 56px;
+    }
+    .home-2 .title{
+        line-height: 46px;
+        font-size: 25px;
+    }
+    .click{
+        margin-top: 25px;
+        margin-bottom: 53px;
+    }
+    .ingre-1, .ingre-2{
+        width: 46%;
+    }
+    .ar-left-up, .ar-right-up{
+        top: 37%;
+    }
+    .thumb-ingre{
+        padding: 51px 0 59px 0;
+    }
+    .ar-left-down, .ar-right-down{
+        top: 96%;
+    }
+    .check-date{
+        padding: 19px 0 0 0;
+    }
+    .text-d{
+        font-size: 27px;
+        left: -19px;
+    }
+    .yt-3{
+        width: 48%;
+    }
+    .des-3{
+        height: 172px;
+        overflow: hidden;
+        word-break: break-word;
+        text-overflow: ellipsis;
+    }
+    .yt-4{
+        display: block;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .list{
+        width: 100%;
+        display: block;
+    }
+    .icon-like{
+        display: none;
+    }
+    .list ul li{
+        width: 27%;
+        margin-left: 32px;
+    }
+    .ip-name{
+        width: 45%;
+    }
+    .ip-sdt{
+        width: 48%;
+    }
+    .sm{
+        left: 221px;
+    }
+
+}
+@media (max-width: 768px) {
+    .logo{
+        display: block;
+        float: right;
+        margin-right: 60px;
+        width: 20%;
+    }
+    .menu-top{
+        margin-left: 0;
+        display: block;
+        clear: both;
+    }
+    .navigation{
+        display: block;
+        left: 0;
+    }
+    .navigationIcon{
+        display: block;
+        position: relative;
+        top: -67px;
+        left: 50px;
+        width: 44px;
+        height: 30px;
+        z-index: 999;
+        cursor: pointer;
+    }
+    .navigation ul, .navigation, .navigationIcon{
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+    }
+    .navigationIcon::before, .navigationIcon::after, .navigationIcon span{
+        display: block;
+        width: 29px;
+        height: 2px;
+        background: #000000;
+        z-index: 999;
+        margin: 7px auto;
+    }
+    .navigationIcon::before, .navigationIcon::after{
+        content: '';
+    }
+    .navigationIcon::before{
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+        transition: .5s ease;
+    }
+    .navigationIcon::after{
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+        transition: .5s ease;
+    }
+    .navigationIcon span{
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+    .navigation.nav-open .navigationIcon::before{
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+        margin-top: 10px;
+        background: #ffffff;
+    }
+    .navigation.nav-open .navigationIcon::after{
+        -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        margin-top: -18px;
+        background: #ffffff;
+    }
+    .navigation.nav-open .navigationIcon span{
+        -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        opacity: 0;
+        background: #ffffff;
+    }
+    .navigation.nav-open .navigationIcon{
+        left: 248px;
+        z-index: 999999;
+        display: inline-block;
+        top: 54px;
+        position: fixed;
+    }
+    .navigation ul{
+        left: -262px;
+        background: #fff0ad;
+        position: fixed;
+        height: 100%;
+        box-shadow: 0 0 11px #ffffff;
+        top: 0px;
+        padding-top: 50px;
+    }
+    .navigation ul li{
+        display: block;
+        padding-left: 18px;
+        line-height: 28px;
+        margin-right: 0;
+        text-align: left;
+    }
+    .navigation ul .sub-menu li{
+        line-height: 16px;
+    }
+    .navigation.nav-open ul{
+        left: 0px;
+        z-index: 999;
+        width: 229px;
+    }
+    .navigation.nav-open .backdropNav{
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.3);
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .navigation ul li a{
+        font-size: 16px;
+    }
+    .thumb-top{
+        background-size: cover;
+        max-height: 342px;
+    }
+    .descrip-top{
+        display: none;
+    }
+    .gif{
+        display: none;
+    }
+    .hot-line{
+        right: 16%;
+        bottom: 65%;
+    }
+    .home-1{
+        padding: 51px 0 69px 0;
+    }
+    .img-1{
+        width: 100%;
+    }
+    .descrip-1{
+        width: 100%;
+        margin-top: 39px;
+        padding-left: 12px;
+    }
+    .d1{
+        margin-bottom: 28px;
+    }
+    .t1{
+        display: none;
+    }
+    .intro-2{
+        display: none;
+    }
+    .yt{
+        margin-bottom: 36px;
+    }
+    .title-yt{
+        width: 19%;
+        top: 17px;
+    }
+    .name-dt{
+        width: 94%;
+        padding: 10px 14px 10px 32px;
+        left: 30px;
+        font-size: 17px;
+        line-height: 34px;
+    }
+    .vtc{
+        margin-bottom: 68px;
+    }
+    .home-2 .title{
+        line-height: 39px;
+        font-size: 26px;
+    }
+    .click{
+        margin-top: 32px;
+        margin-bottom: 73px;
+    }
+    .choose{
+        display: none;
+    }
+    .thumb-ingre{
+        width: 80%;
+        position: relative;
+        padding: 86px 0 66px 0;
+        left: 69px;
+    }
+    .thumb-ingre img{
+        width: 100%;
+    }
+    .ingre-2, .ingre-1{
+        width: 44%;
+    }
+    .ar-left-up, .ar-right-up{
+        top: 39%;
+    }
+    .ar-right-down{
+        top: 96%;
+    }
+    .check-date{
+        padding: 0;
+    }
+    .text-d{
+        font-size: 23px;
+        left: 0;
+        top: -4px;
+    }
+    .result{
+        left: 0;
+        top: -9px;
+    }
+    .yt-3{
+        width: 100%;
+    }
+    .text-3{
+        width: 100%;
+        margin-left: 0;
+    }
+    .des-3{
+        display: none;
+    }
+    .yt-4{
+        width: 100%;
+    }
+    .list{
+        width: 100%;
+        margin-top: 35px;
+    }
+    .title-ft{
+        line-height: 41px;
+    }
+    .ip-name{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .ip-sdt{
+        width: 100%;
+    }
+    .sm{
+        left: 231px;
+    }
+}
+
+@media (max-width: 600px) {
+    .navigationIcon{
+        top: -50px;
+    }
+    .thumb-top{
+        background-size: cover;
+        max-height: 231px;
+    }
+    .descrip-top{
+        display: none;
+    }
+    .gif{
+        display: none;
+    }
+    .hot-line{
+        right: 16%;
+        bottom: 65%;
+    }
+    .hot-line{
+        right: 14%;
+        bottom: 70%;
+    }
+    .tv{
+        display: none;
+    }
+    .phone{
+        font-size: 26px;
+    }
+    .title{
+        font-size: 26px;
+    }
+    .title-icon{
+        font-size: 19px;
+    }
+    .colos{
+        display: none;
+    }
+    .yt{
+        margin-top: 33px;
+        margin-bottom: 0;
+    }
+    .title-yt{
+        right: -1%;
+        margin-right: 21px;
+    }
+    .name-dt{
+        width: 100%;
+        line-height: normal;
+        top: 7px;
+        left: 0;
+    }
+    .ar-left-down, .ar-left-up, .ar-right-down, .ar-right-up{
+        display: none;
+    }
+    .ingre-1, .ingre-2{
+        width: 100%;
+        clear: both;
+        float: none;
+        font-size: 16px;
+    }
+    .date{
+        margin-bottom: 83px;
+    }
+    .text-d{
+        left: 30%;
+    }
+    .info-date{
+        display: none;
+    }
+    .result{
+        top: 20px;
+    }
+    .dam{
+        font-size: 17px;
+    }
+    .list ul li{
+        width: 22%;
+    }
+    .sm{
+        left: 114px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo{
+        margin-right: 0;
+        width: 38%;
+    }
+    .navigationIcon{
+        top: -61px;
+        left: 10px;
+    }
+    .thumb-top{
+        background-size: cover;
+        max-height: 150px;
+    }
+    .hot-line{
+        right: 5%;
+    }
+    .phone{
+        font-size: 23px;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .img-1{
+        max-height: 300px;
+    }
+    .name-dt{
+        padding: 10px 14px 10px 82px;
+        height: auto;
+    }
+    .vid{
+        width: 100%;
+        height: auto;
+    }
+    .intro-vid{
+        display: none;
+    }
+    .title-yt{
+        width: 28%;
+    }
+    .tv-show{
+        margin-bottom: 0;
+    }
+    .vtc{
+        height: auto;
+    }
+    .home-2 .title{
+        font-size: 20px;
+    }
+    .thumb-ingre{
+        width: 100%;
+        left: 0;
+    }
+    .date{
+        margin-bottom: 69px;
+    }
+    .title-home-3{
+        font-size: 22px;
+        text-align: left;
+        line-height: 35px;
+    }
+    .list ul li{
+        margin-left: 33px;
+        width: 33%;
+    }
+    .title-4{
+        font-size: 25px;
+        text-align: left;
+    }
+    .title-ft{
+        font-size: 22px;
+        text-align: left;
+    }
+    .sm{
+        left: 35px;
+    }
+}
+@media (max-width: 320px) {
+
+}
